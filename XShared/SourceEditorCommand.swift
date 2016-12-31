@@ -58,6 +58,8 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
             text.append(lastLine)
         }
         
+        text = text.trimmingCharacters(in: CharacterSet(charactersIn: "\n"))
+        
         var minSpaceCount = Int.max
         var array = text.components(separatedBy: "\n")
         array.forEach { text in
@@ -102,6 +104,10 @@ fileprivate extension String {
 fileprivate extension XCSourceTextBuffer {
     
     func substring(by index: Int, from: Int, to: Int? = nil) -> String {
+        var index = index
+        if index == lines.count {
+            index -= 1
+        }
         let line = lines[index] as! String
         return line.substring(from: from, to: to)
     }
