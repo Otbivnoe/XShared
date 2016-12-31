@@ -19,6 +19,7 @@ Xcode extension which allows you copying the code with special formatting quotes
 7. Open a terminal, change to the directory where you cloned and run `xcodebuild -scheme XShared install DSTROOT=~` to compile the extension.
 8. Run `~/Applications/Shared.app` and quit.
 9. Go to ***System Preferences -> Extensions -> Xcode Source Editor*** and enable the extension.
+![](img/Settings.jpg)
 10. Done.
 
 ## Author :muscle:
