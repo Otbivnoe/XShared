@@ -181,15 +181,13 @@
 				TargetAttributes = {
 					84B997A51E16DC6F00C73A37 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = V4K9VFZ6Y7;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					84B997B91E16DC7B00C73A37 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = V4K9VFZ6Y7;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -379,12 +377,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V4K9VFZ6Y7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Shared/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nikita.Shared;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.shared;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -395,13 +396,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V4K9VFZ6Y7;
+				DEVELOPMENT_TEAM = GPVA8JVMU3;
 				INFOPLIST_FILE = Shared/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nikita.Shared;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.shared;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "27e5f952-ba25-424d-8650-c865eb3f2a43";
+				PROVISIONING_PROFILE_SPECIFIER = "Shared Dist";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -412,13 +416,15 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = XShared/XShared.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V4K9VFZ6Y7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XShared/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = nikita.Shared.XShared;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.shared.xshared;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -429,14 +435,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = XShared/XShared.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V4K9VFZ6Y7;
+				DEVELOPMENT_TEAM = GPVA8JVMU3;
 				INFOPLIST_FILE = XShared/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = nikita.Shared.XShared;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.shared.xshared;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b860a89b-b678-4c1e-8741-a4f9d02321e3";
+				PROVISIONING_PROFILE_SPECIFIER = "XShared Dist";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
