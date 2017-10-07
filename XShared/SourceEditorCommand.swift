@@ -22,8 +22,8 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
             pasteboardString += "\n"
             pasteboardString += "```"
 
-            NSPasteboard.general().declareTypes([NSPasteboardTypeString], owner: nil)
-            NSPasteboard.general().setString(pasteboardString, forType: NSPasteboardTypeString)
+            NSPasteboard.general.declareTypes([NSPasteboard.PasteboardType.string], owner: nil)
+            NSPasteboard.general.setString(pasteboardString, forType: NSPasteboard.PasteboardType.string)
         }
         
         completionHandler(nil)
